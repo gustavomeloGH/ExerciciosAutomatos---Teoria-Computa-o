@@ -29,6 +29,7 @@ public class Automato {
 				estadoPosProcessamento = processadorEstado.processarEstadoQAceitacao(c);
 				break;
 			case Constt.QREJEICAO:
+				estadoPosProcessamento = Constt.QREJEICAO;
 				estadoRejeicao = true;
 				break;
 		}
