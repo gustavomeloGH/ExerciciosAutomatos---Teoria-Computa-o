@@ -20,12 +20,12 @@ public class Util {
 	}
 	
 	public static boolean pertenceConjuntoNumeros(char c) {
-		return (String.valueOf(c).matches("^[0-9]*$"));
+		return  (c >= '0' && c <= '9');
 	}
 	
 	
 	public static boolean pertenceConjuntoLetras(char c) {
-		return (String.valueOf(c).matches("^[a-zA-Z]*$"));
+		return ( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z' ) );
 	}
 	
 
